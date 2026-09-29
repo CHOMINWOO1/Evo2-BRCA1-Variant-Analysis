@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "variants": 193,
+  "measured_variant_cells": 384,
+  "layer_region_pairs": 10,
+  "model_cell_pair_combinations": 68,
+  "outer_fits": 816,
+  "max_outer_direct_solve_difference": 4.260414243617561e-11,
+  "all193_numerical_QC_required": true,
+  "duplicate_kernel_predictions_exactly_identical": true,
+  "source_hashes_unchanged": true,
+  "implementation_hashes_unchanged": true,
+  "script_sha256": "9c1d16c2d7cf522ee9700e0f5ec1490aeaebb6f2ff1b337caa7774ecb78a3f16",
+  "kernel_script_sha256": "77eb2584a2d18c0cedb0be6966346cd118741d62ae0a028e96a2446ed2fee399",
+  "completed_utc": "2026-09-16T10:30:22.472605+00:00"
+}

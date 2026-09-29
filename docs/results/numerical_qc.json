@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "cohort": "all",
+  "created_utc": "2026-09-16T10:29:40.389564+00:00",
+  "expected_variant_views": 386,
+  "verified_variant_views": 386,
+  "cohort_complete": true,
+  "selected_layer_full_prefix_checks_passed": 2316,
+  "verified_distinct_REF_repeat_controls": 288,
+  "REF_repeat_selected_layer_full_prefix_checks_passed": 1728,
+  "signed_delta_equals_FP64_ALT_minus_REF_then_FP32": true,
+  "native_forward_comparison_n": 183,
+  "native_vs_new_descriptive": {
+    "native_mean_relative_l2": {
+      "n": 183,
+      "mean": 0.003973414000541053,
+      "median": 0.003833925351500511,
+      "min": 0.003459756262600422,
+      "max": 0.005394892767071724
+    },
+    "new_mean_relative_l2": {
+      "n": 183,
+      "mean": 0.00213121808111118,
+      "median": 0.0020208037458360195,
+      "min": 0.001782832434400916,
+      "max": 0.0036759052891284227
+    },
+    "native_pre_variant_mean_relative_l2": {
+      "n": 183,
+      "mean": 0.0036756860962534536,
+      "median": 0.0038026568945497274,
+      "min": 0.003311721608042717,
+      "max": 0.003927948419004679
+    },
+    "new_pre_variant_mean_relative_l2": {
+      "n": 183,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "new_minus_native_post_mean": {
+      "n": 183,
+      "mean": -8.700456205612974e-06,
+      "median": -9.214039891958237e-06,
+      "min": -7.207272574305534e-05,
+      "max": 6.449245847761631e-05
+    }
+  }
+}

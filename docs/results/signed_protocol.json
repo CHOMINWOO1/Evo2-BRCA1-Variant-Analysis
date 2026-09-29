@@ -1,0 +1,105 @@
+{
+  "frozen_utc": "2026-09-16T08:10:28.559596+00:00",
+  "specification": {
+    "study_status": "Exploratory protocol fixed after prior scalar results were known, before new signed-vector/outcome associations. Not external preregistration.",
+    "inputs": {
+      "results/brca1_grch38/external_functional_validation/seqsplice_complete_benchmark_20260916/benchmark_manifest_193.csv": "7c2bda944c93a9cb672becfda3d17ba9de2744dd01a4dd792090b2137d9a522e",
+      "results/brca1_grch38/external_functional_validation/seqsplice_complete_benchmark_20260916/measured_outcomes/SeqSplice193_per_variant_cell_values.csv": "b117b11984a6a92c6f94ed3fa41db4e3fe6a42d95a166c48392b0d1259ccd3e3",
+      "results/brca1_grch38/external_functional_validation/seqsplice_complete_benchmark_20260916/measured_outcomes/validation.json": "e64640a9a0319aa01ab87fe11c56f8d4643effc83d85bf4bfbdb16427adc0edd",
+      "results/brca1_grch38/seqsplice_signed_layers_20260916/execution_config.json": "6f30750dea129eb80b3e23c011c0918e43dbc9bb04d3c29a8ce84109332b6c9b"
+    },
+    "expected_execution_fingerprint": "2825290eb26fa86364ca44730cb581ecb7b9fef6fc4d71757a2218ea2f965635",
+    "numerical_QC_gate": "Require all193 x two orientations complete with passing exact selected-layer prefix checks and per-coordinate/reference-direction repeats. Never silently exclude numerical failures or replace prefix values.",
+    "primary_cell": "MDA_MB_231",
+    "supporting_cell": "HS578T",
+    "cell_dependence": "Supporting cell shares variants and is not an independent variant replication cohort.",
+    "outcome": "Published paired replicate mean WT full-length minus ALT full-length percentage points, retain negative outcomes, no clipping of predictions.",
+    "primary_pair": [
+      "norm",
+      "assayed_exon"
+    ],
+    "layer_region_pairs": [
+      [
+        "norm",
+        "assayed_exon"
+      ],
+      [
+        "blocks.0",
+        "assayed_exon"
+      ],
+      [
+        "blocks.7",
+        "assayed_exon"
+      ],
+      [
+        "blocks.14",
+        "assayed_exon"
+      ],
+      [
+        "blocks.21",
+        "assayed_exon"
+      ],
+      [
+        "blocks.28",
+        "assayed_exon"
+      ],
+      [
+        "norm",
+        "variant_pm20"
+      ],
+      [
+        "norm",
+        "donor_pm20"
+      ],
+      [
+        "norm",
+        "acceptor_pm20"
+      ],
+      [
+        "norm",
+        "whole_32k"
+      ]
+    ],
+    "primary_effect": "MDA_MB_231 macro-exon MAE(scalar_plus_signed) minus macro-exon MAE(scalar_matched7), norm assayed_exon.",
+    "supporting_controls": [
+      "scalar_plus_REF",
+      "scalar_plus_unit_direction",
+      "exact_duplicate_scalar_control"
+    ],
+    "common_scalar5": [
+      "original_S1_SpliceAI_max_delta_score",
+      "negative_corrected_forward_delta_score",
+      "negative_corrected_rc_delta_score",
+      "corrected_forward_norm_whole32k_mean_relative_l2",
+      "corrected_rc_norm_whole32k_mean_relative_l2"
+    ],
+    "matched_scalar7": "common5 plus forward and RC Euclidean norms of the pooled signed delta of THIS layer/region. Thus every pair has its own matched baseline.",
+    "secondary_pairs": "Six fixed layers at assay exon plus five fixed regions at norm, ten unique pairs including primary. Report every pair; no overall best-layer claim from differing baselines.",
+    "baseline_kernel": "Featurewise training mean/std (ddof0), drop exact training constants; divide concatenated features by sqrt(number_active_columns).",
+    "vector_kernel": "Each orientation separately: center features by training mean, divide by sqrt(training mean squared Euclidean norm). Average the two active orientation Gram matrices.",
+    "unit_direction": "Normalize each raw per-variant per-orientation delta by its own Euclidean norm before training center/RMS scaling. Exactzero vectors remain zero.",
+    "combined_kernel": "Equal average of active scalar and vector kernels. If a block has no training variation it is inactive and remaining weights renormalize. Exact duplicate scalar kernel is identical to scalar kernel.",
+    "raw_Gram": "Raw label-free dot products may be precomputed, but centering and scales use training indices only. No full-cohort standardization, PCA or phenotype-based selection.",
+    "solver": "y intercept=train mean; c=(K + n_train*lambda*I)^(-1)(y-trainmean); prediction=Ktesttrain*c+trainmean. Uniform variant weights in fitting.",
+    "lambda_grid": [
+      0.0001,
+      0.001,
+      0.01,
+      0.1,
+      1.0,
+      10.0
+    ],
+    "lambda_selection": "Inner leave-one-assay-exon-out mean of exon MAEs. Ties within1e-12 choose largest lambda. Transforms recalculated in every inner split.",
+    "outer_split": "Leave one of12 assay exons out. Every ALT at the same genomic position stays in one exon. Overlapping32k contexts and single gene limit independence.",
+    "metrics": "Primary macro-exon MAE; variant-weighted MAE, RMSE and Spearman are supporting. Larger exon (66variants) has more training weight, but same weight as other exons in primary evaluation.",
+    "bootstrap": {
+      "unit": "assay_exon",
+      "draws": 5000,
+      "seed": 20260916,
+      "shared_draws_across_cells_models_pairs": true,
+      "interpretation": "Percentile95% intervals conditional on fixed outer OOF predictions and12exons. Do not include retraining/tuning uncertainty. No multiplicity-adjusted discovery claims."
+    },
+    "interpretation_limit": "Information beyond specified linear scalar baseline, not beyond all nonlinear score relationships or anatomy. REF control does not remove all context confounding. Association is not mechanism or clinical pathogenicity.",
+    "no_paid_API_or_new_model_training": "Only small statistical ridge probes are fitted to frozen Evo2 outputs; checkpoint unchanged."
+  }
+}

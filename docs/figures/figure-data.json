@@ -1,0 +1,34 @@
+{
+  "native_screen_variants": 13455,
+  "corrected_snv_cohort": 193,
+  "corrected_variant_views": 386,
+  "primary_effect": {
+    "cell_line": "MDA_MB_231",
+    "layer": "norm",
+    "region": "assayed_exon",
+    "baseline": "scalar_matched7",
+    "combined": "scalar_plus_signed",
+    "weighting": "macro_exon",
+    "delta_MAE_pp": 0.6405572819663893,
+    "ci_low": 0.14342398031848713,
+    "ci_high": 1.1032661643511483,
+    "n": 193,
+    "bootstrap_draws": 5000
+  },
+  "primary_macro_MAE": {
+    "MDA_MB_231": {
+      "scalar_matched7": 13.237234042391426,
+      "scalar_plus_signed": 13.877791324357814
+    },
+    "HS578T": {
+      "scalar_matched7": 12.310275099046342,
+      "scalar_plus_signed": 12.904618092300423
+    }
+  },
+  "context_purged_macro_MAE": {
+    "SpliceAI_only": 12.662780342674928,
+    "scalar_matched7": 15.864787699582147,
+    "scalar_plus_signed": 16.375737643161635,
+    "scalar_plus_REF": 16.4101649679662
+  }
+}

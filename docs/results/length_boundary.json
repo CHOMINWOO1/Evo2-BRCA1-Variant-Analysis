@@ -1,0 +1,8 @@
+{
+  "largest_success_bp": 40960,
+  "smallest_oom_bp": 41984,
+  "resolution_bp": 1024,
+  "status": "repeat_validated",
+  "success_repeats": 3,
+  "oom_repeats": 2
+}

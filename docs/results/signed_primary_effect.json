@@ -1,0 +1,13 @@
+{
+  "cell_line": "MDA_MB_231",
+  "layer": "norm",
+  "region": "assayed_exon",
+  "baseline": "scalar_matched7",
+  "combined": "scalar_plus_signed",
+  "weighting": "macro_exon",
+  "delta_MAE_pp": 0.6405572819663893,
+  "ci_low": 0.14342398031848713,
+  "ci_high": 1.1032661643511483,
+  "n": 193,
+  "bootstrap_draws": 5000
+}

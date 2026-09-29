@@ -1,0 +1,358 @@
+{
+  "source": "User-provided Evo2 research workspace",
+  "selection": "Scientific source and compact aggregate evidence; no history, keys, caches or patient inputs",
+  "files": [
+    {
+      "public_path": "scripts/analysis/analyze_brca1_screen.py",
+      "source_relative_path": "scripts/analysis/analyze_brca1_screen.py",
+      "source_sha256": "33044e6f147fd0f7bbeb3f9a8027ca61486250f665a88b76d8c4492ba14ecf7a",
+      "public_sha256": "33044e6f147fd0f7bbeb3f9a8027ca61486250f665a88b76d8c4492ba14ecf7a",
+      "changes": []
+    },
+    {
+      "public_path": "scripts/analysis/audit_brca1_signed_panel.py",
+      "source_relative_path": "scripts/analysis/audit_brca1_signed_panel.py",
+      "source_sha256": "ff0357b02adf9ee2dc3f1467be273fc4216512ec2ceadb137d575aed40e52a65",
+      "public_sha256": "ff0357b02adf9ee2dc3f1467be273fc4216512ec2ceadb137d575aed40e52a65",
+      "changes": []
+    },
+    {
+      "public_path": "scripts/analysis/brca1_signed_kernel.py",
+      "source_relative_path": "scripts/analysis/brca1_signed_kernel.py",
+      "source_sha256": "77eb2584a2d18c0cedb0be6966346cd118741d62ae0a028e96a2446ed2fee399",
+      "public_sha256": "77eb2584a2d18c0cedb0be6966346cd118741d62ae0a028e96a2446ed2fee399",
+      "changes": []
+    },
+    {
+      "public_path": "scripts/analysis/check_brca1_evo2_only_context_purged.py",
+      "source_relative_path": "scripts/analysis/check_brca1_evo2_only_context_purged.py",
+      "source_sha256": "96e5f433ecdda51e4bcbdb7e591b3f1ecbca59522a2df244bd37880a0713f610",
+      "public_sha256": "96e5f433ecdda51e4bcbdb7e591b3f1ecbca59522a2df244bd37880a0713f610",
+      "changes": []
+    },
+    {
+      "public_path": "scripts/analysis/check_brca1_evo2_only_probe.py",
+      "source_relative_path": "scripts/analysis/check_brca1_evo2_only_probe.py",
+      "source_sha256": "c1a6683c5604f26b682960c4325e5fd29cf67c66ef5abdfd35834d17ba94b452",
+      "public_sha256": "c1a6683c5604f26b682960c4325e5fd29cf67c66ef5abdfd35834d17ba94b452",
+      "changes": []
+    },
+    {
+      "public_path": "scripts/analysis/evaluate_brca1_context_purged_probe.py",
+      "source_relative_path": "scripts/analysis/evaluate_brca1_context_purged_probe.py",
+      "source_sha256": "c9e0d8b6457029902a976e37960f92d547541d0c1f51b113bc82bb06174f2736",
+      "public_sha256": "c9e0d8b6457029902a976e37960f92d547541d0c1f51b113bc82bb06174f2736",
+      "changes": []
+    },
+    {
+      "public_path": "scripts/analysis/evaluate_brca1_evo2_only_context_purged.py",
+      "source_relative_path": "scripts/analysis/evaluate_brca1_evo2_only_context_purged.py",
+      "source_sha256": "9767963d44e63e351d4c0bd001470ddf801848a9e2266335ffc8b50f7f5de89f",
+      "public_sha256": "9767963d44e63e351d4c0bd001470ddf801848a9e2266335ffc8b50f7f5de89f",
+      "changes": []
+    },
+    {
+      "public_path": "scripts/analysis/evaluate_brca1_evo2_only_probe.py",
+      "source_relative_path": "scripts/analysis/evaluate_brca1_evo2_only_probe.py",
+      "source_sha256": "4969f296b254d776141b19b790068caba32a9ffde989b580d258e7eaf38963b9",
+      "public_sha256": "4969f296b254d776141b19b790068caba32a9ffde989b580d258e7eaf38963b9",
+      "changes": []
+    },
+    {
+      "public_path": "scripts/analysis/evaluate_brca1_signed_probe.py",
+      "source_relative_path": "scripts/analysis/evaluate_brca1_signed_probe.py",
+      "source_sha256": "9c1d16c2d7cf522ee9700e0f5ec1490aeaebb6f2ff1b337caa7774ecb78a3f16",
+      "public_sha256": "9c1d16c2d7cf522ee9700e0f5ec1490aeaebb6f2ff1b337caa7774ecb78a3f16",
+      "changes": []
+    },
+    {
+      "public_path": "scripts/analysis/report_brca1_signed_probe.py",
+      "source_relative_path": "scripts/analysis/report_brca1_signed_probe.py",
+      "source_sha256": "020ee04df2acfc4b8b0883b867dc361dd30ed575b7b4dd5522c3c9b1c1cf3ea3",
+      "public_sha256": "020ee04df2acfc4b8b0883b867dc361dd30ed575b7b4dd5522c3c9b1c1cf3ea3",
+      "changes": []
+    },
+    {
+      "public_path": "scripts/analysis/test_brca1_analysis.py",
+      "source_relative_path": "scripts/analysis/test_brca1_analysis.py",
+      "source_sha256": "d69b9b647774c5f8f1d8027d36e99d4cae9b1d4d35fd79ff7aa20926b39ce451",
+      "public_sha256": "d69b9b647774c5f8f1d8027d36e99d4cae9b1d4d35fd79ff7aa20926b39ce451",
+      "changes": []
+    },
+    {
+      "public_path": "scripts/inference/benchmark_sequence_length.py",
+      "source_relative_path": "scripts/inference/benchmark_sequence_length.py",
+      "source_sha256": "ed12c9415f4ef3e5bb2ffb79b767d32481510e0be9c6edf435ff686828a78437",
+      "public_sha256": "ed12c9415f4ef3e5bb2ffb79b767d32481510e0be9c6edf435ff686828a78437",
+      "changes": []
+    },
+    {
+      "public_path": "scripts/inference/build_brca_grch38_catalog.py",
+      "source_relative_path": "scripts/inference/build_brca_grch38_catalog.py",
+      "source_sha256": "4dc5f279165f57733bbfd38b02514fa40717991a8a4e2074a9275bd3630c37d0",
+      "public_sha256": "4dc5f279165f57733bbfd38b02514fa40717991a8a4e2074a9275bd3630c37d0",
+      "changes": []
+    },
+    {
+      "public_path": "scripts/inference/diagnose_brca1_32k_high_precision.py",
+      "source_relative_path": "scripts/inference/diagnose_brca1_32k_high_precision.py",
+      "source_sha256": "e9608419148dbe523e4142b0c997255f5187da2d36edcb287ba680c3e6dbec98",
+      "public_sha256": "e9608419148dbe523e4142b0c997255f5187da2d36edcb287ba680c3e6dbec98",
+      "changes": []
+    },
+    {
+      "public_path": "scripts/inference/diagnose_brca1_32k_numeric.py",
+      "source_relative_path": "scripts/inference/diagnose_brca1_32k_numeric.py",
+      "source_sha256": "d7bc3b2fc1c7c2fd616f348a18639c9ac37956d238db45a9f3c66280c268618a",
+      "public_sha256": "d7bc3b2fc1c7c2fd616f348a18639c9ac37956d238db45a9f3c66280c268618a",
+      "changes": []
+    },
+    {
+      "public_path": "scripts/inference/diagnose_brca1_HCM_direct.py",
+      "source_relative_path": "scripts/inference/diagnose_brca1_HCM_direct.py",
+      "source_sha256": "ccfeedd19b368fbb09776e167243bcd4ad1e2e0bfb971f4919cf7d5aab641ee3",
+      "public_sha256": "ccfeedd19b368fbb09776e167243bcd4ad1e2e0bfb971f4919cf7d5aab641ee3",
+      "changes": []
+    },
+    {
+      "public_path": "scripts/inference/diagnose_embedding_prefix.py",
+      "source_relative_path": "scripts/inference/diagnose_embedding_prefix.py",
+      "source_sha256": "55adad8922cbd9d08d2ba010f7831a8f7eb833898772274913bc75c7870f32d6",
+      "public_sha256": "55adad8922cbd9d08d2ba010f7831a8f7eb833898772274913bc75c7870f32d6",
+      "changes": []
+    },
+    {
+      "public_path": "scripts/inference/diagnose_fft_roundoff.py",
+      "source_relative_path": "scripts/inference/diagnose_fft_roundoff.py",
+      "source_sha256": "7338a969a1d0a33de7ee59f0b647fefb5c5735e1920c0c6c1aafeffafb85dec9",
+      "public_sha256": "7338a969a1d0a33de7ee59f0b647fefb5c5735e1920c0c6c1aafeffafb85dec9",
+      "changes": []
+    },
+    {
+      "public_path": "scripts/inference/extract_ref_alt_embeddings.py",
+      "source_relative_path": "scripts/inference/extract_ref_alt_embeddings.py",
+      "source_sha256": "f5c7e8d1936538f8b9ba6e63d4b391723e4294303f8de8b379bfdf6e73253455",
+      "public_sha256": "f5c7e8d1936538f8b9ba6e63d4b391723e4294303f8de8b379bfdf6e73253455",
+      "changes": []
+    },
+    {
+      "public_path": "scripts/inference/extract_sequence_embeddings.py",
+      "source_relative_path": "scripts/inference/extract_sequence_embeddings.py",
+      "source_sha256": "f705a8a3b1515a4ffb3fb5eb79a09ede8136bc35c0e7bcd3e012f50c962df150",
+      "public_sha256": "f705a8a3b1515a4ffb3fb5eb79a09ede8136bc35c0e7bcd3e012f50c962df150",
+      "changes": []
+    },
+    {
+      "public_path": "scripts/inference/infer_minimal.py",
+      "source_relative_path": "scripts/inference/infer_minimal.py",
+      "source_sha256": "011b3b326ad88467a841114c283f23e6ef24077a6e87dc49f274effb43ee39af",
+      "public_sha256": "011b3b326ad88467a841114c283f23e6ef24077a6e87dc49f274effb43ee39af",
+      "changes": []
+    },
+    {
+      "public_path": "scripts/inference/prepare_brca1_splice_saturation.py",
+      "source_relative_path": "scripts/inference/prepare_brca1_splice_saturation.py",
+      "source_sha256": "029ebb465bc7b61698c86de2c6ff0f4004d382eb31efcabff3bcb59801085896",
+      "public_sha256": "029ebb465bc7b61698c86de2c6ff0f4004d382eb31efcabff3bcb59801085896",
+      "changes": []
+    },
+    {
+      "public_path": "scripts/inference/prepare_brca_grch38_inputs.py",
+      "source_relative_path": "scripts/inference/prepare_brca_grch38_inputs.py",
+      "source_sha256": "372dcee56021b7b4a31fce3ee3d4e6d385bd4a8901f5f3bf8a91487d0a0c9abb",
+      "public_sha256": "372dcee56021b7b4a31fce3ee3d4e6d385bd4a8901f5f3bf8a91487d0a0c9abb",
+      "changes": []
+    },
+    {
+      "public_path": "scripts/inference/prepare_requested_variants.py",
+      "source_relative_path": "scripts/inference/prepare_requested_variants.py",
+      "source_sha256": "f345dd38b956a84d403d527be972a1148324417ac4b5e11083dad079e145f638",
+      "public_sha256": "f345dd38b956a84d403d527be972a1148324417ac4b5e11083dad079e145f638",
+      "changes": []
+    },
+    {
+      "public_path": "scripts/inference/prepare_reverse_complement.py",
+      "source_relative_path": "scripts/inference/prepare_reverse_complement.py",
+      "source_sha256": "9dee528e9cad302bb9a0ff7b3c579438871781989fd61eefa0182942e9744848",
+      "public_sha256": "9dee528e9cad302bb9a0ff7b3c579438871781989fd61eefa0182942e9744848",
+      "changes": []
+    },
+    {
+      "public_path": "scripts/inference/run_brca1_grch38_screen.py",
+      "source_relative_path": "scripts/inference/run_brca1_grch38_screen.py",
+      "source_sha256": "b9ddd1c432a6ef1cab2d1fce7ccdaa080773fd49d423c9c78e2cd588953c84fb",
+      "public_sha256": "b9ddd1c432a6ef1cab2d1fce7ccdaa080773fd49d423c9c78e2cd588953c84fb",
+      "changes": []
+    },
+    {
+      "public_path": "scripts/inference/run_brca1_seqsplice_layers.py",
+      "source_relative_path": "scripts/inference/run_brca1_seqsplice_layers.py",
+      "source_sha256": "c5226a16b066fc999b93547473b5ed6ac936dd23c7e1a47e23a44d0f7b8cd2fe",
+      "public_sha256": "c5226a16b066fc999b93547473b5ed6ac936dd23c7e1a47e23a44d0f7b8cd2fe",
+      "changes": []
+    },
+    {
+      "public_path": "scripts/inference/run_brca1_splice_saturation.py",
+      "source_relative_path": "scripts/inference/run_brca1_splice_saturation.py",
+      "source_sha256": "ef098b5c8d73265689fc5990412890c7427a813103ee2345b4d680caed7ec1ad",
+      "public_sha256": "ef098b5c8d73265689fc5990412890c7427a813103ee2345b4d680caed7ec1ad",
+      "changes": []
+    },
+    {
+      "public_path": "scripts/inference/run_brca1_test.py",
+      "source_relative_path": "scripts/inference/run_brca1_test.py",
+      "source_sha256": "eae7d0dbf2dcce92432add65dadd426ac735e701df3e01d268638c4661375ff4",
+      "public_sha256": "eae7d0dbf2dcce92432add65dadd426ac735e701df3e01d268638c4661375ff4",
+      "changes": []
+    },
+    {
+      "public_path": "scripts/inference/select_brca_grch38_gene.py",
+      "source_relative_path": "scripts/inference/select_brca_grch38_gene.py",
+      "source_sha256": "c94c95a1038903c98e99fc8c44a124e979bc0f0e38de47ea51e2a34b7077ccb1",
+      "public_sha256": "c94c95a1038903c98e99fc8c44a124e979bc0f0e38de47ea51e2a34b7077ccb1",
+      "changes": []
+    },
+    {
+      "public_path": "scripts/inference/trace_brca1_32k_fp64_causality.py",
+      "source_relative_path": "scripts/inference/trace_brca1_32k_fp64_causality.py",
+      "source_sha256": "2ca10a393b429b9caf439ffef6923718a881409cce7a4e1244bfb966f0ae9b7d",
+      "public_sha256": "2ca10a393b429b9caf439ffef6923718a881409cce7a4e1244bfb966f0ae9b7d",
+      "changes": []
+    },
+    {
+      "public_path": "scripts/inference/verify_brca1_grch38_catalog.py",
+      "source_relative_path": "scripts/inference/verify_brca1_grch38_catalog.py",
+      "source_sha256": "3f46013807fed66789ded194cb218d1f61c3e86ff9066b91b5ce8f778231dbbf",
+      "public_sha256": "3f46013807fed66789ded194cb218d1f61c3e86ff9066b91b5ce8f778231dbbf",
+      "changes": []
+    },
+    {
+      "public_path": "env.sh",
+      "source_relative_path": "env.sh",
+      "source_sha256": "883b1cf927651747b19698e66e1fa8f3ff5e4592180916491fe7f9e112289d69",
+      "public_sha256": "883b1cf927651747b19698e66e1fa8f3ff5e4592180916491fe7f9e112289d69",
+      "changes": []
+    },
+    {
+      "public_path": "setup.sh",
+      "source_relative_path": "setup.sh",
+      "source_sha256": "80a75e32e013a1d1b9c17e68399d9a5b86e8970fcf0480d87a1702d73ba718dc",
+      "public_sha256": "80a75e32e013a1d1b9c17e68399d9a5b86e8970fcf0480d87a1702d73ba718dc",
+      "changes": []
+    },
+    {
+      "public_path": "requirements.lock.txt",
+      "source_relative_path": "requirements.lock.txt",
+      "source_sha256": "b93bd7e528d30209452c5da668a34a66c32d9a38f36f8b60e7f7cf9aa3bdb17e",
+      "public_sha256": "b93bd7e528d30209452c5da668a34a66c32d9a38f36f8b60e7f7cf9aa3bdb17e",
+      "changes": []
+    },
+    {
+      "public_path": "docs/results/native_screen_status.json",
+      "source_relative_path": "results/brca1_grch38/analysis_32768/status.json",
+      "source_sha256": "aec88f517caf7b2a84eb8c7d352f88c610ab9009b227182a63f4899f50217563",
+      "public_sha256": "aec88f517caf7b2a84eb8c7d352f88c610ab9009b227182a63f4899f50217563",
+      "changes": []
+    },
+    {
+      "public_path": "docs/results/native_group_summary.csv",
+      "source_relative_path": "results/brca1_grch38/analysis_32768/group_summary.csv",
+      "source_sha256": "18266ad98c1d6ea634b696d8719579cbeb75f504e3c9ce9283886fd2b1c687e9",
+      "public_sha256": "18266ad98c1d6ea634b696d8719579cbeb75f504e3c9ce9283886fd2b1c687e9",
+      "changes": []
+    },
+    {
+      "public_path": "docs/results/signed_primary_effect.json",
+      "source_relative_path": "results/brca1_grch38/external_functional_validation/seqsplice_signed_probe_20260916/primary_effect.json",
+      "source_sha256": "97075d4a193c0fe06925bd4b12b31072d2a7f4f95f023f73157b21176b8ae067",
+      "public_sha256": "97075d4a193c0fe06925bd4b12b31072d2a7f4f95f023f73157b21176b8ae067",
+      "changes": []
+    },
+    {
+      "public_path": "docs/results/signed_metrics.csv",
+      "source_relative_path": "results/brca1_grch38/external_functional_validation/seqsplice_signed_probe_20260916/metrics.csv",
+      "source_sha256": "5a5497fca02aca03c494c3cb5520281f9a8e83c059ec705268fa09a3837e25c6",
+      "public_sha256": "5a5497fca02aca03c494c3cb5520281f9a8e83c059ec705268fa09a3837e25c6",
+      "changes": []
+    },
+    {
+      "public_path": "docs/results/signed_paired_comparisons.csv",
+      "source_relative_path": "results/brca1_grch38/external_functional_validation/seqsplice_signed_probe_20260916/paired_comparisons.csv",
+      "source_sha256": "a3acbd6c115387d4cdd9438b6767887a21fa11bcf0e165346401c8c1e699eb6e",
+      "public_sha256": "a3acbd6c115387d4cdd9438b6767887a21fa11bcf0e165346401c8c1e699eb6e",
+      "changes": []
+    },
+    {
+      "public_path": "docs/results/signed_protocol.json",
+      "source_relative_path": "results/brca1_grch38/external_functional_validation/seqsplice_signed_probe_20260916/protocol.json",
+      "source_sha256": "dfebd4e27eb5cd12a25fca62daba233c8f98d8637be49fb011559fb200aa2e26",
+      "public_sha256": "dfebd4e27eb5cd12a25fca62daba233c8f98d8637be49fb011559fb200aa2e26",
+      "changes": []
+    },
+    {
+      "public_path": "docs/results/signed_validation.json",
+      "source_relative_path": "results/brca1_grch38/external_functional_validation/seqsplice_signed_probe_20260916/validation.json",
+      "source_sha256": "5e32d6967cc333946b08a0fbbae32c9159866d5f197584feb24e17d9bf0c383e",
+      "public_sha256": "5e32d6967cc333946b08a0fbbae32c9159866d5f197584feb24e17d9bf0c383e",
+      "changes": []
+    },
+    {
+      "public_path": "docs/results/context_purged_metrics.csv",
+      "source_relative_path": "results/brca1_grch38/external_functional_validation/context_purged_probe_20260916/metrics.csv",
+      "source_sha256": "bc1980ac5613b57f7063710db18a5b1831441fea0b0e004a73100a997c90b320",
+      "public_sha256": "bc1980ac5613b57f7063710db18a5b1831441fea0b0e004a73100a997c90b320",
+      "changes": []
+    },
+    {
+      "public_path": "docs/results/context_purged_comparisons.csv",
+      "source_relative_path": "results/brca1_grch38/external_functional_validation/context_purged_probe_20260916/model_comparisons_points.csv",
+      "source_sha256": "813a1189a432867efd74fbb567b6e90130e1ed5854342659e8ae9f896b1dae8d",
+      "public_sha256": "813a1189a432867efd74fbb567b6e90130e1ed5854342659e8ae9f896b1dae8d",
+      "changes": []
+    },
+    {
+      "public_path": "docs/results/context_purged_validation.json",
+      "source_relative_path": "results/brca1_grch38/external_functional_validation/context_purged_probe_20260916/validation.json",
+      "source_sha256": "83cece1419d8664b6a72cc6cea9fcb3c821632017fd3b2ae9c7242552ca13ae6",
+      "public_sha256": "83cece1419d8664b6a72cc6cea9fcb3c821632017fd3b2ae9c7242552ca13ae6",
+      "changes": []
+    },
+    {
+      "public_path": "docs/results/evo2_only_metrics.csv",
+      "source_relative_path": "results/brca1_grch38/external_functional_validation/seqsplice_evo2_only_probe_20260916/metrics.csv",
+      "source_sha256": "7e5de113d5281281f92bdf62236ade07bcb99158de8484c8f70606eced0b6cc9",
+      "public_sha256": "7e5de113d5281281f92bdf62236ade07bcb99158de8484c8f70606eced0b6cc9",
+      "changes": []
+    },
+    {
+      "public_path": "docs/results/evo2_only_context_purged_metrics.csv",
+      "source_relative_path": "results/brca1_grch38/external_functional_validation/seqsplice_evo2_only_context_purged_20260916/metrics.csv",
+      "source_sha256": "81e94c3df03c55e4269da2ba2fc3bae40895dc5c601edebe8f68c1c4734dbfd3",
+      "public_sha256": "81e94c3df03c55e4269da2ba2fc3bae40895dc5c601edebe8f68c1c4734dbfd3",
+      "changes": []
+    },
+    {
+      "public_path": "docs/results/evo2_only_context_purged_validation.json",
+      "source_relative_path": "results/brca1_grch38/external_functional_validation/seqsplice_evo2_only_context_purged_20260916/validation.json",
+      "source_sha256": "f5b4643ff0fce55b1ff7bc3c3b3357c9d29229ab822cac63a1a086ad92dac043",
+      "public_sha256": "f5b4643ff0fce55b1ff7bc3c3b3357c9d29229ab822cac63a1a086ad92dac043",
+      "changes": []
+    },
+    {
+      "public_path": "docs/results/length_boundary.json",
+      "source_relative_path": "results/length_benchmark/boundary.json",
+      "source_sha256": "7a1a3fc5ef46acf400fcdcb1d04ce4c2c34a0cd8c4228cb7e93c2f6ff6e2997a",
+      "public_sha256": "7a1a3fc5ef46acf400fcdcb1d04ce4c2c34a0cd8c4228cb7e93c2f6ff6e2997a",
+      "changes": []
+    },
+    {
+      "public_path": "docs/results/numerical_qc.json",
+      "source_relative_path": "results/brca1_grch38/seqsplice_signed_layers_20260916/audit_all/validation.json",
+      "source_sha256": "64ba9a3e7d3b00363a671d5069135e1e0293af46050c575901422fae1ac84ab4",
+      "public_sha256": "7bd28bb7d5941e15c7b5e581662000745e8e7b4aef660960fbd74e32d52b9b4f",
+      "changes": [
+        "Public aggregate projection; source audit paths, per-variant payloads and infrastructure metadata omitted"
+      ]
+    }
+  ]
+}

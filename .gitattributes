@@ -1,0 +1,6 @@
+* text=auto eol=lf
+# Retain source-result byte hashes, including a historical CRLF table.
+docs/results/*.csv -text
+*.png binary
+*.jpg binary
+*.pdf binary
