@@ -9,7 +9,7 @@ The following checks were performed while preparing this public copy:
 - Selected original code and result file byte hashes are preserved in `docs/SOURCE_FILES.json`. The numerical-QC JSON is explicitly marked as a field projection.
 - Secret scanning and private-path checks are applied to publication candidates. Runtimes, source Git history, keys, raw activations, logs and account/agent tooling are excluded.
 
-The GitHub workflow runs the six public checks plus the two original region-coverage/candidate-selection tests on Linux with Python 3.11 and 3.12. The CI result is recorded separately after the first push.
+The GitHub workflow passed on Linux with Python 3.11 and 3.12 at implementation commit `7eebfc452d7bc266530a481ea99c62cdf469758c`: [recorded CI run](https://github.com/CHOMINWOO1/Evo2-BRCA1-Variant-Analysis/actions/runs/36532602812). Each matrix job ran the six public checks plus the two original region-coverage/candidate-selection tests, regenerated the figure and compiled the selected scripts. Later documentation-only updates do not change the tested implementation.
 
 Not rerun for this release: GPU setup, Evo2 inference, the 13,455-SNV screen, the corrected 193-SNV extraction, real-label probe fitting and bootstrap. These are historical results backed by the included aggregates and source-audit hashes. Full activation and phenotype artifacts are required for complete computational reproduction.
 
